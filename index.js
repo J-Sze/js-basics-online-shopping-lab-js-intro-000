@@ -45,7 +45,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  if (item !== cart[item.Name]) {
+  if (item !== cart[item]) {
     return `That item is not in your cart.`
   }
 }
