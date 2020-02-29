@@ -45,10 +45,10 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  if (item === cart[item]) {
+  if (item === cart[i].itemName) {
     cart.splice(i, 1);
   }
-  if (item !== cart[item]) {
+  if (item !== cart[i].itemName) {
     return `That item is not in your cart.`
   }
   return cart; 
