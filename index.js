@@ -38,8 +38,8 @@ function total() {
   // write your code here
   let total = 0
  for (var i = 0; i < cart.length; i++) {
-   var totalValue = cart[i].itemPrice
-   return totalValue + cart[i].itemPrice
+   totalValue += cart[i].itemPrice
+   return totalValue
  }
 }
 
